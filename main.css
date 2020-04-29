@@ -12,9 +12,20 @@ body {
 }
 .topBar{
 	background-color: #28364c;
-	height:5%;
+	height:8%;
 	width:100%;
 	top:0;
 	left:0;
 	position:absolute;
+}
+#name{
+    position:absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%, -50%);
+    color:white;
+	font-size:25px;
+	font-family: Microsoft JhengHei;
+	margin-block-start: 0.01em;
+    margin-block-end: 0.01em;
 }
