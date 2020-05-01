@@ -18,6 +18,19 @@ p{
     margin-inline-start:0.5em;
     margin-inline-end:0.5em;
 }
+.pill_button {
+  background-color: #ddd;
+  border: none;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+  width:45%;
+}
 .topBar{
 	background-color: #28364c;
 	height:8%;
@@ -138,4 +151,14 @@ p{
     position:absolute;
     top:50%;
     transform: translate(0, -50%);
+}
+.yes{
+    position:absolute;
+    top:88%;
+    left:3%;
+}
+.QQQ{
+    position:absolute;
+    top:88%;
+    left:51%;
 }
