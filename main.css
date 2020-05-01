@@ -77,12 +77,16 @@ p{
 .Pic2{
     top:18.5%;
     left:3%;
-}    
+}
+.Pic3{
+    top:76%;
+    left:3%;
+}
 #bubble_1{
     position:absolute;
     top:9%;
     left:22%;
-    width:30%;
+    width:60%;
     padding:1px;
 }
 #bubble_2{
@@ -92,14 +96,45 @@ p{
     width:60%;
     padding:1px;
 }
-#dia1{
-    font-size:13px;
+#bubble_3{
     position:absolute;
-    top:50%;
-    transform: translate(0, -50%);
+    top:28%;
+    left:22%;
+    width:60%;
+    padding:1px;
 }
-#dia2{
-    font-size:13px;
+#bubble_4{
+    position:absolute;
+    top:37.5%;
+    left:22%;
+    width:60%;
+    height:13%;
+    padding:1px;
+}
+#bubble_5{
+    position:absolute;
+    top:52%;
+    left:22%;
+    width:60%;
+    height:13%;
+    padding:1px;
+}
+#bubble_6{
+    position:absolute;
+    top:66.5%;
+    left:22%;
+    width:60%;
+    padding:1px;
+}
+#bubble_7{
+    position:absolute;
+    top:76%;
+    left:22%;
+    width:60%;
+    padding:1px;
+}
+#dia1{
+    font-size:12px;
     position:absolute;
     top:50%;
     transform: translate(0, -50%);
