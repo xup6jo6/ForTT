@@ -41,7 +41,15 @@
         </div>
         <script>
             function onClickQQQ(){
-                document.getElementById("QQ").innerHTML = "為什麼手滑了(´･_･`)";        
+                var content = document.getElementById("QQ").innerHTML;
+                if(content == "好ㄚ( ´ ▽ ` )ﾉ")
+                    onClickYes();
+                else if(content == "先不要( ･᷄ὢ･᷅ )")
+                    document.getElementById("QQ").innerHTML = "為什麼手滑了(´･_･`)";
+                else{
+                    alert("哎喲~不要再手滑了嘛(´･_･`)");
+                    document.getElementById("QQ").innerHTML = "好ㄚ( ´ ▽ ` )ﾉ";
+                }
             }
             function onClickYes(){
                 alert('我真的好開心(๑•̀ㅂ•́)و✧');     
