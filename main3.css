@@ -183,3 +183,6 @@ p{
     -webkit-animation:fadein 1s;
     -webkit-animation-fill-mode: forwards;
 }
+.Invisible{
+    background-color: #000000;
+}
